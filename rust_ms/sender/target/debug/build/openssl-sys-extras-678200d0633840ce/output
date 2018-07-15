@@ -1,0 +1,56 @@
+TARGET = Some("x86_64-apple-darwin")
+OPT_LEVEL = Some("0")
+TARGET = Some("x86_64-apple-darwin")
+HOST = Some("x86_64-apple-darwin")
+TARGET = Some("x86_64-apple-darwin")
+TARGET = Some("x86_64-apple-darwin")
+HOST = Some("x86_64-apple-darwin")
+CC_x86_64-apple-darwin = None
+CC_x86_64_apple_darwin = None
+HOST_CC = None
+CC = None
+HOST = Some("x86_64-apple-darwin")
+TARGET = Some("x86_64-apple-darwin")
+HOST = Some("x86_64-apple-darwin")
+CFLAGS_x86_64-apple-darwin = None
+CFLAGS_x86_64_apple_darwin = None
+HOST_CFLAGS = None
+CFLAGS = None
+DEBUG = Some("true")
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-m64" "-I" "/usr/local/opt/openssl/include" "-Wall" "-Wextra" "-o" "/Users/alekseykislitsa/prj/ByLanguage/github_prj/rabbit_hole/rust_ms/sender/target/debug/build/openssl-sys-extras-678200d0633840ce/out/src/openssl_shim.o" "-c" "src/openssl_shim.c"
+exit code: 0
+TARGET = Some("x86_64-apple-darwin")
+OPT_LEVEL = Some("0")
+TARGET = Some("x86_64-apple-darwin")
+HOST = Some("x86_64-apple-darwin")
+TARGET = Some("x86_64-apple-darwin")
+TARGET = Some("x86_64-apple-darwin")
+HOST = Some("x86_64-apple-darwin")
+CC_x86_64-apple-darwin = None
+CC_x86_64_apple_darwin = None
+HOST_CC = None
+CC = None
+HOST = Some("x86_64-apple-darwin")
+TARGET = Some("x86_64-apple-darwin")
+HOST = Some("x86_64-apple-darwin")
+CFLAGS_x86_64-apple-darwin = None
+CFLAGS_x86_64_apple_darwin = None
+HOST_CFLAGS = None
+CFLAGS = None
+DEBUG = Some("true")
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-m64" "-I" "/usr/local/opt/openssl/include" "-Wall" "-Wextra" "-o" "/Users/alekseykislitsa/prj/ByLanguage/github_prj/rabbit_hole/rust_ms/sender/target/debug/build/openssl-sys-extras-678200d0633840ce/out/ssl_ctx_options_shim.o" "-c" "/Users/alekseykislitsa/prj/ByLanguage/github_prj/rabbit_hole/rust_ms/sender/target/debug/build/openssl-sys-extras-678200d0633840ce/out/ssl_ctx_options_shim.c"
+exit code: 0
+TARGET = Some("x86_64-apple-darwin")
+TARGET = Some("x86_64-apple-darwin")
+HOST = Some("x86_64-apple-darwin")
+AR_x86_64-apple-darwin = None
+AR_x86_64_apple_darwin = None
+HOST_AR = None
+AR = None
+TARGET = Some("x86_64-apple-darwin")
+TARGET = Some("x86_64-apple-darwin")
+running: "ar" "crs" "/Users/alekseykislitsa/prj/ByLanguage/github_prj/rabbit_hole/rust_ms/sender/target/debug/build/openssl-sys-extras-678200d0633840ce/out/libopenssl_shim.a" "/Users/alekseykislitsa/prj/ByLanguage/github_prj/rabbit_hole/rust_ms/sender/target/debug/build/openssl-sys-extras-678200d0633840ce/out/src/openssl_shim.o" "/Users/alekseykislitsa/prj/ByLanguage/github_prj/rabbit_hole/rust_ms/sender/target/debug/build/openssl-sys-extras-678200d0633840ce/out/ssl_ctx_options_shim.o"
+exit code: 0
+TARGET = Some("x86_64-apple-darwin")
+cargo:rustc-link-lib=static=openssl_shim
+cargo:rustc-link-search=native=/Users/alekseykislitsa/prj/ByLanguage/github_prj/rabbit_hole/rust_ms/sender/target/debug/build/openssl-sys-extras-678200d0633840ce/out
