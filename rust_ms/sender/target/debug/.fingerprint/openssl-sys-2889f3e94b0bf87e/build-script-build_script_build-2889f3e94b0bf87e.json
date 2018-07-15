@@ -1,1 +1,0 @@
-{"rustc":9225382454270477987,"features":"[\"tlsv1_1\", \"tlsv1_2\"]","target":13123923088509177768,"profile":7282077418741342047,"path":14619893372221339229,"deps":[["pkg-config v0.3.11","pkg_config",8954593886685132858]],"local":[{"Precalculated":"0.7.17"}],"rustflags":[],"edition":"Edition2015"}

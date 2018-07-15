@@ -1,1 +1,0 @@
-{"rustc":9225382454270477987,"features":"[\"openssl-sys\", \"tlsv1_1\", \"tlsv1_2\"]","target":13123923088509177768,"profile":7282077418741342047,"path":12605072965312848473,"deps":[["gcc v0.3.54","gcc",17044324419570807707]],"local":[{"Precalculated":"0.7.14"}],"rustflags":[],"edition":"Edition2015"}
