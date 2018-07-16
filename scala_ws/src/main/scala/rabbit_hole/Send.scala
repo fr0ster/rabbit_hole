@@ -1,3 +1,4 @@
+package rabbit_hole
 
 import com.rabbitmq.client.ConnectionFactory
 
