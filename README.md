@@ -7,3 +7,5 @@ Example on rust was taken from rust-amqp (https://github.com/Antti/rust-amqp) li
 All sourse codes was taken for education purposes.
 
 PS Sorry for my bad English :)
+
+PPS To be continued...
