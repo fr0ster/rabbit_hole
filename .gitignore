@@ -13,4 +13,7 @@ Cargo.lock
 bin/
 .ensime_cache/
 .ensime_cache/*
+.ensime
+\#*\#
+TAGS
 .tags
