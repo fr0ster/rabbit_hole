@@ -1,0 +1,29 @@
+
+project/Dependencies.scala,285
+object Dependencies {Dependencies3,14
+  lazy val scalaTest = "org.scalatest" %% "scalatest" % "3.0.5"scalaTest4,36
+  lazy val collUtils = "com.twitter" %% "util-collection" % "17.12.0"collUtils5,100
+  lazy val coreUtils = "com.twitter" %% "util-core" % "17.12.0"coreUtils6,170
+
+src/test/scala/rabbit_hole/HelloSpec.scala,100
+package rabbit_holerabbit_hole1,0
+class HelloSpec extends FlatSpec with Matchers {HelloSpec5,45
+
+src/main/scala/rabbit_hole/Recv.scala,414
+package rabbit_holerabbit_hole1,0
+object Recv {Recv5,51
+  def main(argv: Array[String]) {main9,107
+    val factory = new ConnectionFactory()factory10,141
+    val connection = factory.newConnection()connection12,216
+    val channel = connection.createChannel()channel13,261
+    val consumer = new DefaultConsumer(channel) {consumer16,432
+        var message = new String(body, "UTF-8")message23,646
+
+src/main/scala/rabbit_hole/Send.scala,333
+package rabbit_holerabbit_hole1,0
+object Send {Send5,67
+  def main(argv: Array[String]) {main9,123
+    val factory = new ConnectionFactory()factory10,157
+    val connection = factory.newConnection()connection12,232
+    val channel = connection.createChannel()channel13,277
+    val message = "Hello World!"message15,385

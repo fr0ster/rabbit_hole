@@ -11,3 +11,6 @@ Cargo.lock
 
 *.pyc
 bin/
+.ensime_cache/
+.ensime_cache/*
+.tags
