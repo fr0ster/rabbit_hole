@@ -1,5 +1,5 @@
 <projectDescription>
-  <name>scala_ws</name>
+  <name>newmotion_rabbitmq</name>
   <buildSpec>
     <buildCommand>
       <name>org.scala-ide.sdt.core.scalabuilder</name>
